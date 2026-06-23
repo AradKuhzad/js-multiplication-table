@@ -35,9 +35,15 @@ input {
 input:hover {
     opacity: 0.85;
 }
+.brtable {
+    overflow: auto;
+    max-width: 560px;
+}
+
 table {
     border-collapse: collapse;
     background: #1e293b;
+    border-radius: 10px;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
