@@ -57,10 +57,14 @@ button:hover {
 td {
 tr {
 }
+    flex-direction: row;
+    white-space: nowrap;
 }
 td:hover {
+    transition: 0.2s;
 }
 .boxresult-table { 
+    justify-content: center;
 }
 
 .brtable {
