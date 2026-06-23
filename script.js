@@ -5,6 +5,9 @@ function generatebtn() {
     console.log("it work");
     let rows = document.getElementById("rows-input").value;
     let columns = document.getElementById("columns-input").value;
+    let table = document.getElementById("result-table");
+
+    if (!rows || !columns || rows <= 0 || columns <= 0) {
 
     for (let i = 1; i <= rows; i++) {
         let tr = document.createElement("tr");
