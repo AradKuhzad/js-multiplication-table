@@ -16,8 +16,6 @@ function generatebtn() {
 
         let tr = document.createElement("tr");
         table.appendChild(tr);
-        td.innerHTML = i * j; 
-        tr.appendChild(td);
 
         for (let j = 1; j <= columns; j++) {
             let td = document.createElement("td")
