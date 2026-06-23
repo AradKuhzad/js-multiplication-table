@@ -35,6 +35,10 @@ input {
 input:hover {
     opacity: 0.85;
 }
+.brtable::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
 .brtable::-webkit-scrollbar-corner {
     background: transparent;
 }
