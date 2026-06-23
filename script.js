@@ -5,4 +5,7 @@ function generatebtn() {
     console.log("it work");
     let rows = document.getElementById("rows-input").value;
     let columns = document.getElementById("columns-input").value;
+
+    for (let i = 1; i <= rows; i++) {
+    }
 }
