@@ -43,7 +43,12 @@ input::placeholder {
 button {
     padding: 10px 16px;
     border: none;
+    border-radius: 8px;
+    background: #6366f1;
     color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .brtable {
