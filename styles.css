@@ -24,6 +24,10 @@ input {
     width: 100%;
     padding: 10px;
     margin: 5px 5px 5px 0;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    color: #e2e8f0;
+    font-size: 14px;
 
 ::selection {
     background: #6366f1;
