@@ -32,6 +32,9 @@ input {
     transition: o.2s ease;
 }
 
+input:hover {
+    opacity: 0.85;
+}
 
 ::selection {
     background: #6366f1;
