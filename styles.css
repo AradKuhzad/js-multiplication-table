@@ -72,6 +72,8 @@ td:hover {
 }
 
 .boxresult-table { 
+    display: flex;
+    margin-top: 20px;
     justify-content: center;
 }
 
