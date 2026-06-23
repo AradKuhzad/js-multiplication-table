@@ -54,6 +54,14 @@ button {
 button:hover {
     background: #4f46e5;
 }
+td {
+tr {
+}
+}
+td:hover {
+}
+.boxresult-table { 
+}
 
 .brtable {
     overflow: auto;
