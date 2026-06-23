@@ -35,9 +35,17 @@ input {
 input:hover {
     opacity: 0.85;
 }
+
+input::placeholder {
+    color: #64748b;
+}
+
+
 .brtable {
     overflow: auto;
     max-width: 560px;
+    max-height: 560px;
+    border-radius: 10px;
 }
 
 table {
