@@ -3,4 +3,6 @@ function generatebtn() {
     console.log(document.getElementById("rows-input").value);
     console.log(document.getElementById("columns-input").value);
     console.log("it work");
+    let rows = document.getElementById("rows-input").value;
+    let columns = document.getElementById("columns-input").value;
 }
