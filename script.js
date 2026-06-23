@@ -16,7 +16,8 @@ function generatebtn() {
         tr.appendChild(td);
 
         for (let j = 1; j <= columns; j++) {
-            let ij = i * j; 
+            let td = document.createElement("td")
+            tr.appendChild(td);
         }
     }
 }
