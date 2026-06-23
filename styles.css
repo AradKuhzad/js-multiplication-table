@@ -40,6 +40,11 @@ input::placeholder {
     color: #64748b;
 }
 
+button {
+    padding: 10px 16px;
+    border: none;
+    color: white;
+}
 
 .brtable {
     overflow: auto;
