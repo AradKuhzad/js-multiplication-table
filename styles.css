@@ -54,10 +54,12 @@ button {
 button:hover {
     background: #4f46e5;
 }
-td {
+
 tr {
-}
+    display: flex;
     flex-direction: row;
+    width: max-content;
+}
     white-space: nowrap;
 }
 td:hover {
