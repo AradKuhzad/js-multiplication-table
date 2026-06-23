@@ -10,13 +10,15 @@ function generatebtn() {
     if (!rows || !columns || rows <= 0 || columns <= 0) {
 
     for (let i = 1; i <= rows; i++) {
+
         let tr = document.createElement("tr");
-        document.getElementById("result-table").appendChild(tr);
+        table.appendChild(tr);
         td.innerHTML = i * j; 
         tr.appendChild(td);
 
         for (let j = 1; j <= columns; j++) {
             let td = document.createElement("td")
+            td.innerHTML = i * j;  
             tr.appendChild(td);
         }
     }
