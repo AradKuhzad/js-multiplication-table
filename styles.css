@@ -36,6 +36,11 @@ input:hover {
     opacity: 0.85;
 }
 
+.brtable::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
 .brtable::-webkit-scrollbar-track {
     background: transparent;
 }
