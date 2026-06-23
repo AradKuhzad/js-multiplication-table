@@ -65,9 +65,12 @@ td {
     border: 1px solid #334155;
     white-space: nowrap;
 }
+
 td:hover {
+    background: #334155;
     transition: 0.2s;
 }
+
 .boxresult-table { 
     justify-content: center;
 }
