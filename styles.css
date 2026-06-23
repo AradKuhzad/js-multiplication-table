@@ -26,8 +26,12 @@ input {
     margin: 5px 5px 5px 0;
     border-radius: 8px;
     border: 1px solid #334155;
+    background: #1e293b;
     color: #e2e8f0;
     font-size: 14px;
+    transition: o.2s ease;
+}
+
 
 ::selection {
     background: #6366f1;
