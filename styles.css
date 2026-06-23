@@ -15,7 +15,9 @@ body {
 
 #input-section {
     display: flex;
+    flex-direction: row;
     width: 100%;
+
 }
 
 ::selection {
