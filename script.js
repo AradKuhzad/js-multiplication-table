@@ -10,6 +10,7 @@ function generatebtn() {
     if (!rows || !columns || rows <= 0 || columns <= 0) {
         alert("Only enter a number greater than zero");
         return;
+    }
 
     for (let i = 1; i <= rows; i++) {
 
