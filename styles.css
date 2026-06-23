@@ -35,6 +35,11 @@ input {
 input:hover {
     opacity: 0.85;
 }
+table {
+    border-collapse: collapse;
+    background: #1e293b;
+}
+
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
