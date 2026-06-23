@@ -60,6 +60,9 @@ tr {
     flex-direction: row;
     width: max-content;
 }
+
+td {
+    border: 1px solid #334155;
     white-space: nowrap;
 }
 td:hover {
