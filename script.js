@@ -8,6 +8,7 @@ function generatebtn() {
 
     for (let i = 1; i <= rows; i++) {
         let tr = document.createElement("tr");
+        tr.appendChild(td);
 
         for (let j = 1; j <= columns; j++) {
             let ij = i * j; 
