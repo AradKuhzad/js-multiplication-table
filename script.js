@@ -8,6 +8,7 @@ function generatebtn() {
 
     for (let i = 1; i <= rows; i++) {
         let tr = document.createElement("tr");
+        document.getElementById("result-table").appendChild(tr);
         td.innerHTML = i * j; 
         tr.appendChild(td);
 
