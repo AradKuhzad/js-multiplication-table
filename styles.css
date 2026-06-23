@@ -12,6 +12,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+#input-section {
+    display: flex;
+    width: 100%;
+}
+
 ::selection {
     background: #6366f1;
 }
