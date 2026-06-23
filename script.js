@@ -7,6 +7,8 @@ function generatebtn() {
     let columns = document.getElementById("columns-input").value;
 
     for (let i = 1; i <= rows; i++) {
+        let tr = document.createElement("tr");
+
         for (let j = 1; j <= columns; j++) {
             let ij = i * j; 
         }
