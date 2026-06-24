@@ -49,6 +49,7 @@ button {
     font-weight: bold;
     cursor: pointer;
     transition: 0.2s;
+    user-select: none;
 }
 
 button:hover {
