@@ -24,3 +24,5 @@ function generatebtn() {
 
 
 document.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') generatebtn();
+  });
