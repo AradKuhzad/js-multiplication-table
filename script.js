@@ -23,3 +23,4 @@ function generatebtn() {
 }
 
 
+document.addEventListener('keydown', function(e) {
